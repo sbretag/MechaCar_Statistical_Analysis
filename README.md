@@ -41,13 +41,28 @@ Using the adjusted R-Squared of .6825, we can say the linear model explains 68.2
 
 
 ### Total Summary
+![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Total_Summary.png)
 
 ### Lot Summary
+
+![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Lot_Summary.png)
 
 ### Analysis
 #### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 ## T-Tests on Suspension Coils
+
+### Sample of Population vs Population Mean
+![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Sample_vs_Population_Test.png)
+
+### Lot 1 vs Population Mean
+![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Lot1_vs_Population_Test.png)
+
+### Lot 2 vs Population Mean
+![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Lot2_vs_Population_Test.pngg)
+
+### Lot 3 vs Population Mean
+![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Lot3_vs_Population_Test.png)
 
 ### Analysis
 
