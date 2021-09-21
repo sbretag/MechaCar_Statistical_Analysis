@@ -60,7 +60,7 @@ Upper management at AutosRU's has called on the data analytics team to review pr
 The analysis below assumes a significance level of 0.05 percent.
 
 #### Sample of Population vs Population Mean
-![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Sample_vs_Population_Test.png)
+![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/CumulativeTest.png)
   - Sample size of 50 was used for comparison against population mean
   - The one sample T test resulted in a p value of .4098 which would suggest there is no statistical difference between the observed sample mean and it's population mean of 1500
 
