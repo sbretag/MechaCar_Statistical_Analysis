@@ -26,55 +26,19 @@ lot <- group_by(Susp_Coil, Manufacturing_Lot)
 #Summarize by Manufacturing LOT
 lot_summary <- summarize(lot , Mean = mean(PSI) , Median = median(PSI) , Variance = var(PSI) , SD = sd(PSI) ) 
 
+#T Test on Cumulative Lots vs Mean of 1500
 
-#Review Susp_Coils data for normal distribution
+t.test(Susp_Coil$PSI,mu=1500)
 
-plt <- ggplot(Susp_Coil,aes(x=PSI))
-plt + geom_density() 
+#T Test on Lot 1 vs Mean of 1500
 
+t.test(subset(Susp_Coil,Manufacturing_Lot=="Lot1")$PSI,mu=1500)
 
+#T Test on Lot 2 vs Mean of 1500
 
-#Create sample of all Lots
+t.test(subset(Susp_Coil,Manufacturing_Lot=="Lot2")$PSI,mu=1500)
 
-Susp_Coil_SampleAll <- Susp_Coil %>% sample_n(50)
+#T Test on Lot 3 vs Mean of 1500
 
-#Review Sample for Normal Distribution
-
-
-plt <- ggplot(Susp_Coil_SampleAll,aes(x=PSI))
-plt + geom_density() 
-
-#T Test on sample of all Manufacturing_Lots versus population
-
-t.test(Susp_Coil_SampleAll$PSI,mu=mean(Susp_Coil$PSI))
-
-
-###Create tables by Manufacturing Lot
-Susp_Coil_Lot1 <- subset(Susp_Coil, Manufacturing_Lot == 'Lot1')
-Susp_Coil_Lot2 <- subset(Susp_Coil, Manufacturing_Lot == 'Lot2')
-Susp_Coil_Lot3 <- subset(Susp_Coil, Manufacturing_Lot == 'Lot3')
-
-
-###Review Lot Plots for normal distribution
-
-plt1 <- ggplot(Susp_Coil_Lot1,aes(x=PSI))
-plt1 + geom_density() 
-
-plt2 <- ggplot(Susp_Coil_Lot2,aes(x=PSI))
-plt2 + geom_density() 
-
-plt3 <- ggplot(Susp_Coil_Lot3,aes(x=PSI))
-plt3 + geom_density() 
-
-#T Test on Lot 1 vs overall population
-
-t.test(Susp_Coil_Lot1$PSI,mu=mean(Susp_Coil$PSI))
-
-#T Test on Lot 2 vs overall population
-
-t.test(Susp_Coil_Lot2$PSI,mu=mean(Susp_Coil$PSI))
-
-#T Test on Lot 3 vs overall population
-
-t.test(Susp_Coil_Lot3$PSI,mu=mean(Susp_Coil$PSI))
+t.test(subset(Susp_Coil,Manufacturing_Lot=="Lot3")$PSI,mu=1500)
 
