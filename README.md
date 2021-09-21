@@ -63,7 +63,7 @@ Upper management at AutosRU's has called on the data analytics team to review pr
 ![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Lot1_vs_Population_Test.png)
 
 ### Lot 2 vs Population Mean
-![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Lot2_vs_Population_Test.pngg)
+![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Lot2_vs_Population_Test.png)
 
 ### Lot 3 vs Population Mean
 ![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Lot3_vs_Population_Test.png)
