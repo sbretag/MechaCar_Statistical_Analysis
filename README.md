@@ -59,28 +59,31 @@ Upper management at AutosRU's has called on the data analytics team to review pr
 ###Analysis
 The analysis below assumes a significance level of 0.05 percent.
 
-#### Sample of Population vs Population Mean
+#### All Lots vs 1500 Mean
 ![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/CumulativeTest.png)
-  - Sample size of 50 was used for comparison against population mean
-  - The one sample T test resulted in a p value of .4098 which would suggest there is no statistical difference between the observed sample mean and it's population mean of 1500
+  - The output of the T-test for test of all lots versus population mean of 1500 shows that they are not statistically different due to the P-Value of 0.06028 being greater than the .05 significance level, therefore we would not reject the null hypthesis.
 
-#### Lot 1 vs Population Mean
+#### Lot 1 vs 1500 Mean
 ![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Lot1_vs_Population_Test.png)
-- Sample size of 50 was used for comparison against population mean
-  - The one sample T test resulted in a p value of .4098 which would suggest there is no statistical difference between the observed sample mean and it's population mean of 1500
+  - The output of the T-test for lot 1 versus population mean of 1500 shows that they are not statistically different due to the P-Value of 1 being greater than the .05 significance level, therefore we would not reject the null hypthesis.
 
-#### Lot 2 vs Population Mean
+#### Lot 2 vs 1500 Mean
 ![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Lot2_vs_Population_Test.png)
+  - The output of the T-test for lot 2 versus population mean of 1500 shows that they are not statistically different due to the P-Value of 0.6072 being greater than the .05 significance level, therefore we would not reject the null hypthesis.
 
-#### Lot 3 vs Population Mean
+#### Lot 3 vs 1500 Mean
 ![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Lot3_vs_Population_Test.png)
-
-####Summary
-
-  - The test on the sample of the population vs the population mean of 1500 resulted in a p value of 
-  summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
-  
+  - The output of the T-test for lot 3 versus population mean of 1500 shows that they are statistically different due to the P-Value of 0.04163 being less than the .05 significance level, therefore we would reject the null hypthesis.
+  - Further review and analysis into the business would be needed to determine why the population is showing to be statistically different.  There may be an issue with a manufacturing line that produced lot 3 or potentially a supply chain issue that needs to be addressed.
+  - 
 ## Study Design: MechaCar vs Competition
+
+###Study Overview
+I have designed a statistical study in order to see how MechaCar vehicles perform against vehicled made by other maunfacturers. Potential metrics that consumers could find interesting in this study might include cost, city or highway fuel efficiency, horse power, maitenance cost, or safety rating.
+
+There are many factors that consumers take into consideration when evaluating a car to purchase. However, in a world where ridesharing is becoming more ubiquitous and it's easy and cheap to get around in other people's vehicles, customers looking to purchase a car are looking for more than just a conveyance. They will be looking to buy a car that is an economical means to regularly transport themselves and their items on a reliable, regular basis.
+
+In today's world, consumers face many decisions when it comes to purchasing a vehicle but perhaps to the most important factor is safety rating as you cannot put a cost on saving a life.
 
 ### Study Design Description
   1. What metric or metrics are you going to test?
