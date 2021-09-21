@@ -31,11 +31,11 @@ Upper management at AutosRU's has called on the data analytics team to review pr
     3. Intercept
 
 #### Is the slope of the linear model considered to be zero?  Why or why not?
-  - Assuming our significance level was the common 0.05 percent, the null hypothesis would be rejected because of the overall p value is less than .05 significance level at 5.35e-11, we can state that thlope of our linear model is not zero.
+  - Assuming our significance level was the common 0.05 percent, the null hypothesis would be rejected because of the overall p value is less than the .05 significance level at 5.35e-11, we can state that the slope of our linear model is not zero.
 
 #### Does the linear model predict mpg of MechaCar prototypes effectively?  Why or why not?
 
-  - Using the adjusted R-Squared of .6825, we can say the linear model explains 68.25% of the dependent variable (MPG).  I would consider it moderately effective but there is potentially room to improve.  With the intercept being statistically significant, it's possible there are other indepent variables that could help improve the performance of the model. 
+  - Using the adjusted R-Squared of .6825, we can say the linear model explains 68.25% of the dependent variable (MPG).  I would consider it moderately effective but there is potentially room for improvement.  With the intercept being statistically significant, it's possible there are other indepent variables that could help improve the performance of the model. 
 
 
 ## Summary Statistics on Suspension Coils
@@ -56,20 +56,27 @@ Upper management at AutosRU's has called on the data analytics team to review pr
 
 ## T-Tests on Suspension Coils
 
-### Sample of Population vs Population Mean
+###Analysis
+The analysis below assumes a significance level of 0.05 percent.
+
+#### Sample of Population vs Population Mean
 ![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Sample_vs_Population_Test.png)
+  - Sample size of 50 was used for comparison against population mean
+  - The one sample T test resulted in a p value of .4098 which would suggest there is no statistical difference between the observed sample mean and it's population mean of 1500
 
-### Lot 1 vs Population Mean
+#### Lot 1 vs Population Mean
 ![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Lot1_vs_Population_Test.png)
+- Sample size of 50 was used for comparison against population mean
+  - The one sample T test resulted in a p value of .4098 which would suggest there is no statistical difference between the observed sample mean and it's population mean of 1500
 
-### Lot 2 vs Population Mean
+#### Lot 2 vs Population Mean
 ![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Lot2_vs_Population_Test.png)
 
-### Lot 3 vs Population Mean
+#### Lot 3 vs Population Mean
 ![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Lot3_vs_Population_Test.png)
 
-### Analysis
-The analysis assumes a significance level of 0.05 percent.
+####Summary
+
   - The test on the sample of the population vs the population mean of 1500 resulted in a p value of 
   summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
   
