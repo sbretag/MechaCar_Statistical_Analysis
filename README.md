@@ -69,7 +69,8 @@ Upper management at AutosRU's has called on the data analytics team to review pr
 ![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Lot3_vs_Population_Test.png)
 
 ### Analysis
-
+The analysis assumes a significance level of 0.05 percent.
+  - The test on the sample of the population vs the population mean of 1500 resulted in a p value of 
   summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
   
 ## Study Design: MechaCar vs Competition
