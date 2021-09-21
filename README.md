@@ -31,11 +31,11 @@ Upper management at AutosRU's has called on the data analytics team to review pr
     3. Intercept
 
 #### Is the slope of the linear model considered to be zero?  Why or why not?
-Assuming our significance level was the common 0.05 percent, the null hypothesis would be rejected because of the overall p value is less than .05 significance level at 5.35e-11, we can state that thlope of our linear model is not zero.
+  - Assuming our significance level was the common 0.05 percent, the null hypothesis would be rejected because of the overall p value is less than .05 significance level at 5.35e-11, we can state that thlope of our linear model is not zero.
 
 #### Does the linear model predict mpg of MechaCar prototypes effectively?  Why or why not?
 
-Using the adjusted R-Squared of .6825, we can say the linear model explains 68.25% of the dependent variable (MPG).  I would consider it moderately effective but there is potentially room to improve.  With the intercept being statistically significant, it's possible there are other indepent variables that could help improve the performance of the model. 
+  - Using the adjusted R-Squared of .6825, we can say the linear model explains 68.25% of the dependent variable (MPG).  I would consider it moderately effective but there is potentially room to improve.  With the intercept being statistically significant, it's possible there are other indepent variables that could help improve the performance of the model. 
 
 
 ## Summary Statistics on Suspension Coils
@@ -50,6 +50,8 @@ Using the adjusted R-Squared of .6825, we can say the linear model explains 68.2
 
 ### Analysis
 #### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+  - The statistical variance calculated for total lots is less than 100 pounds per square inch, therefore, in total it appears that the population of suspension coils meets design specifications
+  - Both lots 1 and 2 are within design specification because there variance is below 100 pounds per square inch, however, lot 3 is above 100 psi and is not aligned with design specifications
 
 
 ## T-Tests on Suspension Coils
