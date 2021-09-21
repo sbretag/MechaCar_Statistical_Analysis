@@ -10,11 +10,12 @@ Upper management at AutosRU's has called on the data analytics team to review pr
 ## Resources
   - Software
     - R Studio
+  - [R Script](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/MechaCarChallenge.R)
   - Souce Data
     - [MechaCar](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Resources/MechaCar_mpg.csv)
     - [Suspension_Coil](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Resources/Suspension_Coil.csv)
-  - Scripts
-    - [Deliverable 1 Script](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/MechaCarChallenge.R)
+  
+    
 
 ## Linear Regression to Predict MPG
 
