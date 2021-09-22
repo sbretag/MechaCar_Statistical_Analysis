@@ -35,7 +35,7 @@ Upper management at AutosRU's has called on the data analytics team to review pr
 
 #### Does the linear model predict mpg of MechaCar prototypes effectively?  Why or why not?
 
-  - Using the adjusted R-Squared of .6825, we can say the linear model explains 68.25% of the dependent variable (MPG).  I would consider it moderately effective but there is potentially room for improvement.  With the intercept being statistically significant, it's possible there are other indepent variables that could help improve the performance of the model. 
+  - Using the adjusted R-Squared of .6825, we can say the linear model explains 68.25% of the dependent variable (MPG).  I would consider it moderately effective but there is potentially room for improvement.  With the intercept being statistically significant, it's possible there are other independent variables that could help improve the performance of the model. 
 
 
 ## Summary Statistics on Suspension Coils
@@ -74,19 +74,21 @@ The analysis below assumes a significance level of 0.05 percent.
 #### Lot 3 vs 1500 Mean
 ![](https://github.com/sbretag/MechaCar_Statistical_Analysis/blob/main/Images/Lot3_vs_Population_Test.png)
   - The output of the T-test for lot 3 versus population mean of 1500 shows that they are statistically different due to the P-Value of 0.04163 being less than the .05 significance level, therefore we would reject the null hypthesis.
+
+#### Overall T Test Analysis
   - Further review and analysis into the business would be needed to determine why the population is showing to be statistically different.  There may be an issue with a manufacturing line that produced lot 3 or potentially a supply chain issue that needs to be addressed.
   - 
-## Study Design: MechaCar vs Competition
-
-###Study Overview
-I have designed a statistical study in order to see how MechaCar vehicles perform against vehicled made by other maunfacturers. Potential metrics that consumers could find interesting in this study might include cost, city or highway fuel efficiency, horse power, maitenance cost, or safety rating.
-
-There are many factors that consumers take into consideration when evaluating a car to purchase. However, in a world where ridesharing is becoming more ubiquitous and it's easy and cheap to get around in other people's vehicles, customers looking to purchase a car are looking for more than just a conveyance. They will be looking to buy a car that is an economical means to regularly transport themselves and their items on a reliable, regular basis.
-
-In today's world, consumers face many decisions when it comes to purchasing a vehicle but perhaps to the most important factor is safety rating as you cannot put a cost on saving a life.
 
 ### Study Design Description
-  1. What metric or metrics are you going to test?
-  2. What is the null hypothesis or alternative hypothesis
-  3. What statistical test would you use to test the hypothesis? And why?
-  4. What data is needed to run the statistical test?
+
+Perhaps one of the most important measures of performance against the competition when it comes to the auto industry is historic sales.  Even more important than that is future sales.  Having the ability to predict future revenue based on attributes of vehicle models in the pipeline will give you a leg up on the competition.  The same predictive model would also allow you to model out your competitions future revenue as well. My statistical study will be utilizing multiple linear regression with auto sales as the dependent variable and fuel efficiency, horse power, maintance cost, and safety rating as the independent variables. In order to test whether this model would be an accurate predictor, we need to test the following and analyze the p value and r squared for statistical significance.
+
+Null Hypothesis:  Mechacar & competitor sales have no relationship with their vehicles' fuel efficiency, horsepower, maintenace cost, and safety rating.
+Alternative Hypothesis: Mechacar and competitor sales are driven by vehicles' fuel efficiency, horsepower, maintenace cost, and safety rating.
+
+Statistical Test: Multiple Linear Regression
+
+The following data would be needed.
+  - Historic sales data for mechacar and their competitors
+  - Fuel efficiency, horsepower, maintenance cost, and safety rating metrics associated with the vehicles sold over the same time frame as the historic sales
+
